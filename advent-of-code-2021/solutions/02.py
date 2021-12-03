@@ -34,8 +34,6 @@ def main():
                 pos_keeper['depth'] += (a * pos_keeper['aim'])
         except Exception as e:
             raise(e)
-        print(d, a)
-        print(pos_keeper)
     print('Part 2:', pos_keeper['forward'] * pos_keeper['depth']) 
     
 if __name__ == '__main__':
