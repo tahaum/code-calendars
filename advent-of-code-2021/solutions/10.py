@@ -40,7 +40,6 @@ def main():
             
     total_points = list()   
     for end in missing_ends:
-        print(end)
         points = 0
         for char in end:
             points = (5 * points) + scores[char]
@@ -48,11 +47,6 @@ def main():
     total_points.sort()
     print(total_points)
     print('Part 2:', total_points[len(total_points) // 2])
-    
-            
-            
-            
-        
     
 if __name__ == '__main__':
     main()

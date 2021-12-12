@@ -3,6 +3,7 @@ import input_utils as iu
 def main():
     path = '../data/08-1.txt'
     data = iu.read_text_file_standard(path)
+    
     ans = 0
     for line in data:
         before, after = line.split('|')
